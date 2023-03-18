@@ -8,17 +8,18 @@ body {
 
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
-.wrapper {
-  margin-top: 3vh;
-}
 *:focus {
   outline: none;
 }
- 
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  padding: 50px 15px;
+}
+
 @media screen and (max-width: 700px),
 (max-height: 500px) {
   .wrapper {
@@ -43,12 +44,8 @@ body {
   background: #fff;
   box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
   border-radius: 10px;
-  padding: 20px;
-  padding-top: 140px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
+  padding: 35px;
+  padding-top: 180px;
 }
 
 @media screen and (max-width: 480px) {
@@ -90,7 +87,7 @@ body {
     margin-right: 0;
     flex: unset;
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
 
   .card-form__col:last-child {
@@ -136,10 +133,6 @@ body {
   color: #fff;
   margin-top: 20px;
   cursor: pointer;
-  -webkit-border-radius:;
-  -moz-border-radius:;
-  -ms-border-radius:;
-  -o-border-radius:;
 }
 
 @media screen and (max-width: 480px) {
@@ -592,12 +585,12 @@ body {
 }
 
 .card-input {
-  margin-bottom: 6px;
+  margin-bottom: 20px;
 }
 
 .card-input__label {
-  font-size: 12px;
-  margin-bottom: 7px;
+  font-size: 14px;
+  margin-bottom: 5px;
   font-weight: 500;
   color: #1a3b5d;
   width: 100%;
@@ -607,7 +600,7 @@ body {
 
 .card-input__input {
   width: 100%;
-  height: 40px;
+  height: 50px;
   border-radius: 5px;
   box-shadow: none;
   border: 1px solid #ced6e0;
@@ -628,8 +621,7 @@ body {
   box-shadow: 0px 10px 20px -13px rgba(32, 56, 117, 0.35);
 }
 
-.card-input__input.-select {
-  -webkit-appearance: none;
+.card-input__input.-select { 
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAeCAYAAABuUU38AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAUxJREFUeNrM1sEJwkAQBdCsngXPHsQO9O5FS7AAMVYgdqAd2IGCDWgFnryLFQiCZ8EGnJUNimiyM/tnk4HNEAg/8y6ZmMRVqz9eUJvRaSbvutCZ347bXVJy/ZnvTmdJ862Me+hAbZCTs6GHpyUi1tTSvPnqTpoWZPUa7W7ncT3vK4h4zVejy8QzM3WhVUO8ykI6jOxoGA4ig3BLHcNFSCGqGAkig2yqgpEiMsjSfY9LxYQg7L6r0X6wS29YJiYQYecemY+wHrXD1+bklGhpAhBDeu/JfIVGxaAQ9sb8CI+CQSJ+QmJg0Ii/EE2MBiIXooHRQhRCkBhNhBcEhLkwf05ZCG8ICCOpk0MULmvDSY2M8UawIRExLIQIEgHDRoghihgRIgiigBEjgiFATBACAgFgghEwSAAGgoBCBBgYAg5hYKAIFYgHBo6w9RRgAFfy160QuV8NAAAAAElFTkSuQmCC");
   background-size: 12px;
   background-position: 90% center;
@@ -702,20 +694,6 @@ body {
 
 @media screen and (min-width: 500px) {
   .github-btn:hover {
-    transform: scale(1.1);
-    box-shadow: 0px 17px 20px -6px rgba(36, 52, 70, 0.36);
-  }
-}
-
-@media screen and (max-width: 700px) {
-  .github-btn {
-    position: relative;
-    bottom: auto;
-    right: auto;
-    margin-top: 20px;
-  }
-
-  .github-btn:active {
     transform: scale(1.1);
     box-shadow: 0px 17px 20px -6px rgba(36, 52, 70, 0.36);
   }
