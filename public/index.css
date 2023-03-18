@@ -21,9 +21,8 @@ body {
 }
 
 .card-form {
-  max-width: 576px;
   margin: auto;
-  width: 100%;
+  width: 576px;
 }
 
 .card-form__inner {
@@ -37,12 +36,6 @@ body {
 .card-form__row {
   display: flex;
   align-items: flex-start;
-}
-
-@media screen and (max-width: 480px) {
-  .card-form__row {
-    flex-wrap: wrap;
-  }
 }
 
 .card-form__col {
@@ -235,23 +228,10 @@ body {
   cursor: pointer;
 }
 
-@media screen and (max-width: 480px) {
-  .card-item__info {
-    padding: 10px;
-  }
-}
-
 .card-item__holder {
   opacity: 0.7;
   font-size: 13px;
   margin-bottom: 6px;
-}
-
-@media screen and (max-width: 480px) {
-  .card-item__holder {
-    font-size: 12px;
-    margin-bottom: 5px;
-  }
 }
 
 .card-item__wrapper {
@@ -262,12 +242,6 @@ body {
   height: 100%;
   text-shadow: 7px 6px 10px rgba(14, 42, 90, 0.8);
   user-select: none;
-}
-
-@media screen and (max-width: 480px) {
-  .card-item__wrapper {
-    padding: 20px 10px;
-  }
 }
 
 .card-item__name {
