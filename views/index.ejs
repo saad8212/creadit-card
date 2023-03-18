@@ -6,7 +6,10 @@
   <title>Credit-Card 💳</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
   <link rel="stylesheet" href="index.css">
- </head>
+  <style>
+ 
+  </style>
+</head>
 <body>
   <div class="wrapper" id="app">
     <div class="card-form">
@@ -16,15 +19,13 @@
             <div class="card-item__focus" v-bind:class="{'-active' : focusElementStyle }" v-bind:style="focusElementStyle" ref="focusElement"></div>
             <div class="card-item__cover">
               <img
-              v-bind:src="'https://raw.githubusercontent.com/muhammederdem/credit-card-form/master/src/assets/images/' + currentCardBackground + '.jpeg'" class="card-item__bg">
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Al_Rajhi_Bank_Logo.svg/1200px-Al_Rajhi_Bank_Logo.svg.png" class="card-item__bg">
             </div>
             <div class="card-item__wrapper">
               <div class="card-item__top">
                 <img src="https://raw.githubusercontent.com/muhammederdem/credit-card-form/master/src/assets/images/chip.png" class="card-item__chip">
-                <div class="card-item__type">
-                  <transition name="slide-fade-up">
-                    <img v-bind:src="'https://raw.githubusercontent.com/muhammederdem/credit-card-form/master/src/assets/images/' + getCardType + '.png'" v-if="getCardType" v-bind:key="getCardType" alt="" class="card-item__typeImg">
-                  </transition>
+                <div class="card-item__type"> 
+                    <img src="logo.svg"  alt="" class="card-item__typeImg">
                 </div>
               </div>
               <label for="cardNumber" class="card-item__number" ref="cardNumber">
@@ -106,7 +107,7 @@
           <div class="card-item__side -back">
             <div class="card-item__cover">
               <img
-              v-bind:src="'https://raw.githubusercontent.com/muhammederdem/credit-card-form/master/src/assets/images/' + currentCardBackground + '.jpeg'" class="card-item__bg">
+              src="card-item__bg" class="card-item__bg">
             </div>
             <div class="card-item__band"></div>
             <div class="card-item__cvv">
