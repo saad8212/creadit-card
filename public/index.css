@@ -20,24 +20,10 @@ body {
   padding: 50px 15px;
 }
 
-@media screen and (max-width: 700px),
-(max-height: 500px) {
-  .wrapper {
-    flex-wrap: wrap;
-    flex-direction: column;
-  }
-}
-
 .card-form {
-  max-width: 570px;
+  max-width: 576px;
   margin: auto;
   width: 100%;
-}
-
-@media screen and (max-width: 576px) {
-  .card-form {
-    margin: 0 auto;
-  }
 }
 
 .card-form__inner {
@@ -46,20 +32,6 @@ body {
   border-radius: 10px;
   padding: 35px;
   padding-top: 180px;
-}
-
-@media screen and (max-width: 480px) {
-  .card-form__inner {
-    padding: 25px;
-    padding-top: 165px;
-  }
-}
-
-@media screen and (max-width: 360px) {
-  .card-form__inner {
-    padding: 15px;
-    padding-top: 165px;
-  }
 }
 
 .card-form__row {
@@ -82,27 +54,8 @@ body {
   margin-right: 0;
 }
 
-@media screen and (max-width: 480px) {
-  .card-form__col {
-    margin-right: 0;
-    flex: unset;
-    width: 100%;
-    margin-bottom: 20px;
-  }
-
-  .card-form__col:last-child {
-    margin-bottom: 0;
-  }
-}
-
 .card-form__col.-cvv {
   max-width: 150px;
-}
-
-@media screen and (max-width: 480px) {
-  .card-form__col.-cvv {
-    max-width: initial;
-  }
 }
 
 .card-form__group {
@@ -135,12 +88,6 @@ body {
   cursor: pointer;
 }
 
-@media screen and (max-width: 480px) {
-  .card-form__button {
-    margin-top: 10px;
-  }
-}
-
 .card-item {
   max-width: 430px;
   height: 270px;
@@ -149,20 +96,6 @@ body {
   position: relative;
   z-index: 2;
   width: 100%;
-}
-
-@media screen and (max-width: 480px) {
-  .card-item {
-    max-width: 310px;
-    height: 220px;
-    width: 90%;
-  }
-}
-
-@media screen and (max-width: 360px) {
-  .card-item {
-    height: 180px;
-  }
 }
 
 .card-item.-active .card-item__side.-front {
@@ -271,32 +204,8 @@ body {
   padding: 0 10px;
 }
 
-@media screen and (max-width: 480px) {
-  .card-item__top {
-    margin-bottom: 25px;
-  }
-}
-
-@media screen and (max-width: 360px) {
-  .card-item__top {
-    margin-bottom: 15px;
-  }
-}
-
 .card-item__chip {
   width: 60px;
-}
-
-@media screen and (max-width: 480px) {
-  .card-item__chip {
-    width: 50px;
-  }
-}
-
-@media screen and (max-width: 360px) {
-  .card-item__chip {
-    width: 40px;
-  }
 }
 
 .card-item__type {
@@ -307,19 +216,6 @@ body {
   max-width: 100px;
   margin-left: auto;
   width: 100%;
-}
-
-@media screen and (max-width: 480px) {
-  .card-item__type {
-    height: 40px;
-    max-width: 90px;
-  }
-}
-
-@media screen and (max-width: 360px) {
-  .card-item__type {
-    height: 30px;
-  }
 }
 
 .card-item__typeImg {
@@ -384,12 +280,6 @@ body {
   text-transform: uppercase;
 }
 
-@media screen and (max-width: 480px) {
-  .card-item__name {
-    font-size: 16px;
-  }
-}
-
 .card-item__nameItem {
   display: inline-block;
   min-width: 8px;
@@ -406,23 +296,6 @@ body {
   padding: 10px 15px;
   cursor: pointer;
 }
-
-@media screen and (max-width: 480px) {
-  .card-item__number {
-    font-size: 21px;
-    margin-bottom: 15px;
-    padding: 10px 10px;
-  }
-}
-
-@media screen and (max-width: 360px) {
-  .card-item__number {
-    font-size: 19px;
-    margin-bottom: 10px;
-    padding: 10px 10px;
-  }
-}
-
 .card-item__numberItem {
   width: 16px;
   display: inline-block;
@@ -432,25 +305,6 @@ body {
   width: 30px;
 }
 
-@media screen and (max-width: 480px) {
-  .card-item__numberItem {
-    width: 13px;
-  }
-
-  .card-item__numberItem.-active {
-    width: 16px;
-  }
-}
-
-@media screen and (max-width: 360px) {
-  .card-item__numberItem {
-    width: 12px;
-  }
-
-  .card-item__numberItem.-active {
-    width: 8px;
-  }
-}
 
 .card-item__content {
   color: #fff;
@@ -470,12 +324,6 @@ body {
   cursor: pointer;
 }
 
-@media screen and (max-width: 480px) {
-  .card-item__date {
-    font-size: 16px;
-  }
-}
-
 .card-item__dateItem {
   position: relative;
 }
@@ -492,13 +340,6 @@ body {
   width: 100%;
 }
 
-@media screen and (max-width: 480px) {
-  .card-item__dateTitle {
-    font-size: 12px;
-    padding-bottom: 5px;
-  }
-}
-
 .card-item__band {
   background: rgba(0, 0, 19, 0.8);
   width: 100%;
@@ -506,19 +347,6 @@ body {
   margin-top: 30px;
   position: relative;
   z-index: 2;
-}
-
-@media screen and (max-width: 480px) {
-  .card-item__band {
-    margin-top: 20px;
-  }
-}
-
-@media screen and (max-width: 360px) {
-  .card-item__band {
-    height: 40px;
-    margin-top: 10px;
-  }
 }
 
 .card-item__cvv {
@@ -530,12 +358,6 @@ body {
 
 .card-item__cvv .card-item__type {
   opacity: 0.7;
-}
-
-@media screen and (max-width: 360px) {
-  .card-item__cvv {
-    padding: 10px 15px;
-  }
 }
 
 .card-item__cvvTitle {
@@ -561,27 +383,8 @@ body {
   box-shadow: 0px 10px 20px -7px rgba(32, 56, 117, 0.35);
 }
 
-@media screen and (max-width: 480px) {
-  .card-item__cvvBand {
-    height: 40px;
-    margin-bottom: 20px;
-  }
-}
-
-@media screen and (max-width: 360px) {
-  .card-item__cvvBand {
-    margin-bottom: 15px;
-  }
-}
-
 .card-list {
   margin-bottom: -130px;
-}
-
-@media screen and (max-width: 480px) {
-  .card-list {
-    margin-bottom: -120px;
-  }
 }
 
 .card-input {
@@ -610,6 +413,10 @@ body {
   background: none;
   color: #1a3b5d;
   font-family: "Source Sans Pro", sans-serif;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
 }
 
 .card-input__input:hover,
@@ -675,26 +482,3 @@ body {
   pointer-events: none;
 }
 
-.github-btn {
-  position: absolute;
-  right: 40px;
-  bottom: 50px;
-  text-decoration: none;
-  padding: 15px 25px;
-  border-radius: 4px;
-  box-shadow: 0px 4px 30px -6px rgba(36, 52, 70, 0.65);
-  background: #24292e;
-  color: #fff;
-  font-weight: bold;
-  letter-spacing: 1px;
-  font-size: 16px;
-  text-align: center;
-  transition: all 0.3s ease-in-out;
-}
-
-@media screen and (min-width: 500px) {
-  .github-btn:hover {
-    transform: scale(1.1);
-    box-shadow: 0px 17px 20px -6px rgba(36, 52, 70, 0.36);
-  }
-}
